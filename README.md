@@ -30,7 +30,7 @@ More information regarding COM can be found everywhere since [it is as old as me
 
 ### COM reversing tools
 
-- [IDA Pro](https://www.hex-rays.com/products/ida/) :simple_smile:
+- [IDA Pro](https://www.hex-rays.com/products/ida/) :smile:
 - [Win32 Python COM module](http://timgolden.me.uk/pywin32-docs/pythoncom.html)
 - [RCE COM Tools library](http://www.woodmann.com/collaborative/tools/index.php/Category:COM_Tools)
 - [Microsoft OLE-COM Object Viewer](https://msdn.microsoft.com/en-us/library/windows/desktop/ms688269(v=vs.85).aspx)
@@ -65,6 +65,7 @@ ROApi.h
 Urlmon.h
 ```
 witch I subsequently collected from the SDK in order to build into the .til. At this point I realised the types were probabil in a visual studio type library, something that IDA has.
+
 The type library I was looking for was:
 `vc9 - Visual Studio v9 headers (without windows.h)`
 The header files are also found in `vc6win - Visual C++` but with a different flavor.
